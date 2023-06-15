@@ -1,12 +1,11 @@
 import { useState } from "react";
 import CustomAppBar from "./components/CustomAppBar";
-import Box from "@mui/material/Box";
 import "./index.css";
 import Chart from "react-apexcharts";
 import { data } from "./components/SampleData";
 import { ApexOptions } from "apexcharts";
 function App() {
-  const [chartOptions, setChartOptions] = useState({
+  const [chartOptions] = useState({
     series: [
       {
         data: data.map((datum) => ({
