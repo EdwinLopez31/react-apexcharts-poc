@@ -20,7 +20,7 @@ const CustomAppBar = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant='h6' color='inherit' component='div'>
-            Photos
+            ApexCharts
           </Typography>
         </Toolbar>
       </AppBar>
