@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://edwinlopez31.github.io/react-apexcharts-poc/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
